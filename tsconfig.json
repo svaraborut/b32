@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "declaration": true,
+
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "target": "es5"
+  },
+  "exclude": ["dist", "test", "**/*.test.*"]
+}

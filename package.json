@@ -1,0 +1,21 @@
+{
+  "name": "b32",
+  "version": "1.0.0",
+  "description": "Base32 library for Node.js - RFC4648 compliant",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "tsc -b -f",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^14.16.1",
+    "@types/jest": "^27.0.4",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "keywords": [],
+  "author": "b@aindo.com",
+  "license": "ISC"
+}
